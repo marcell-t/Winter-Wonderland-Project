@@ -33,10 +33,8 @@ void draw() {
   }
   
  //Create snow
-
-  if (frameCount % 1 == 0) {
+ 
     mySnow.add(new Snow(int(random(0, 800)), 0, 10)); 
-  }
 
   for (int i = 0; i < mySnow.size(); i++) {
 
