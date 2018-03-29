@@ -7,7 +7,6 @@ class Snow{
     
     x = xpos;
     y = ypos;
-    r = radius;
     r = int(random(minFlakeSize,maxFlakeSize));
   }
   void display(){
